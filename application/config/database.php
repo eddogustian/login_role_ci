@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.88.100',  // Nama host
-	'username' => 'user', // Username
-	'password' => 'user', // Jika menggunakan password isi, jika tidak kosongkan saja
+	'hostname' => 'localhost',  // Nama host
+	'username' => 'root', // Username
+	'password' => 'root', // Jika menggunakan password isi, jika tidak kosongkan saja
 	'database' => 'db_login_role_ci', // Nama databasenya
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
